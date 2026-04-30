@@ -484,7 +484,7 @@ const TRACKED_FIELDS = {
     totqtyord:   { label: 'Total Qty Order', desc: 'Total Quantity Ordered' },
     totqtyshp:   { label: 'Total Qty Shipped', desc: 'Total Quantity Shipped' },
     totqtyrcv:   { label: 'Total Qty Received', desc: 'Total Quantity Received' },
-    stagecd:     { label: 'Stage Code', desc: 'Transfer stage. 0 - Entered, 1 - Ordered, 2 - Shipped, 3 - Exception, 5 - Received, 9 - Closed' },
+    stagecd:     { label: 'Stage Code', desc: 'Transfer stage. 0 - Requested, 1 - Ordered, 2 - Picked, 3 - Shipped, 4 - Pre, 5 - Exception, 6 - Received, 9 - Cancelled' },
     shipfmwhse:  { label: 'Ship From Whse', desc: 'Ship from warehouse' },
     shiptowhse:  { label: 'Ship To Whse', desc: 'Ship to warehouse' },
     shipviaty:   { label: 'Ship Via', desc: 'Ship via type' },
